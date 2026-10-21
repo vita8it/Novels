@@ -1,0 +1,30 @@
+ทีนี้ให้ทำหน้า dashboard
+
+
+JUNKIE API FOR MANAGE LICENSE : rest.api = https://docs.jnkie.com/rest-api
+Provider = Novel Provider
+
+
+Tab 1 = Loaders
+-- ถ้าผู้ใช้มี License (Key) ที่ยังไม่หมดเวลา จะมี เวลาบอกว่าจะหมดตอนไหนและมี code Block พร้อมปุ่มคัดลอก สคริปต์
+License = "ใส่ USER_KEY แทนตรงนี้"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vita8it/Novel/main/main.luau"))()
+แล้วมีปุ่ม Rehwid ด้วย ปุ่มนี้ ถ้าผมจะ reset hwid id ของ lisence นั้น
+
+-- ถ้าไม่มี License หรือ License หมดอายุ จะมี Text บอกว่า Active your license.
+แล้วจะมี Texbox สำหรับใส่ License แล้วปุ่มกด Confirm
+แล้วจะมีปุ่ม Get License ข้างๆ confirm (กดแล้วจะไปหน้าหาคีย์)
+
+
+Tab 2 = Profile
+มีข้อมูล Profile Discord ชื่อ , Username , Avatar
+และปุ่ม Logout
+
+Theme = Dark Novel (Dark Mode)
+Logo = /Images/Logo.png
+
+แล้วก็ ถ้าผู้ใช้ ใช้ใน โทรศัพท์ หรือ Ipad จะเป็นแนวตั้ง
+ถ้าใช้ใน คอม จะเป็นแนวนอน
+
+โทรศัพท์ ปุ่มเลือก Tab จะอยู่ด้านล่างแบบ เป็น Icon แล้วมี Text ด้านล่าง
+คอม ปุ่มเลือก Tab จะอยู่ด้านซ้าย ทำแบบ Dashboard ทั่วไปเลย
